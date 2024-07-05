@@ -2,9 +2,49 @@
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>akame</title>
+
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 <style>
-body {top: 0; left: 0; width: 99%; height: 97%;
-    position: absolute; display: table}
-  p {display: table-cell; vertical-align: middle; text-align: center}
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  color: black;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  text-align: center;;
+}
+
+</style>
+</head>
+
+</style>
+
+<div class="header">
+
+  <h1>akame</h1>
+  
+</div>
+
+<img src="skyscrap.png" alt="ak">
+
+<div class="navbar">
+
+  <a href="#">about me</a>
+  <a href="#">youtube</a>
+  <a href="#">blog</a>
+  <a href="#" class="right">contact</a>
+</div>
+
