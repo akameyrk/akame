@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>akame</title>
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 <style>
-
 body {
   font-family: 'Times New Roman', serif;
 }
@@ -24,36 +23,26 @@ body {
 }
 
 .navbar {
-  text-align: center;;
+  text-align: center;
 }
-
 </style>
 </head>
 
-</style>
-
+<body>
 <div class="header">
-
   <h1>akame</h1>
-  
 </div>
 
 <img src="skyscrap.png" alt="ak">
 
 <div class="navbar">
-
   <a href="#">about me</a>
-  
-<span> . </span>
-
+  <span> . </span>
   <a href="#">youtube</a>
-  
   <span> . </span>
-  
   <a href="#">blog</a>
-  
   <span> . </span>
-  
   <a href="#" class="right">contact</a>
 </div>
-
+</body>
+</html>
