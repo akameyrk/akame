@@ -43,8 +43,17 @@ body {
 <div class="navbar">
 
   <a href="#">about me</a>
+  
+<span> . </span>
+
   <a href="#">youtube</a>
+  
+  <span> . </span>
+  
   <a href="#">blog</a>
+  
+  <span> . </span>
+  
   <a href="#" class="right">contact</a>
 </div>
 
