@@ -9,22 +9,27 @@
 <style>
 body {
   font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  padding: 80px; 
+  padding: 20px 0 0 0;
   text-align: center;
   color: black;
+  border: none;
 }
 
 .header h1 {
   font-size: 60px;
   font-family: 'Times New Roman', serif;
+  margin: 0;
 }
 
 .navbar {
   text-align: center;
   font-family: 'Times New Roman', serif;
+  margin-top: 20px;
 }
 
 a:link {
@@ -36,7 +41,7 @@ a:link {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 0px; 
+  margin-top: 0px;
 }
 
 </style>
