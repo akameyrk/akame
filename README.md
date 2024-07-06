@@ -36,7 +36,7 @@ body {
   <h1>akame</h1>
 </div>
 
-<img src="skyscrap.png" alt="ak" style="width:600px;height:400px;">
+<img src="Pinterest Image.jpg" alt="ak" style="width:600px;height:400px;">
 
 <div class="navbar">
   <a href="#">about me</a>
