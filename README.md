@@ -60,7 +60,7 @@ a:link {
     <h1>akame</h1>
   </div>
 
-  <img src="Pinterest Image.jpg" alt="ak" class="center" style="width:600px;height:400px;">
+  <img src="Pinterest Image.jpg" alt="ak" class="center" style="width:700px;height:300px;">
 
   <div class="navbar">
     <a href="#">about me</a>
