@@ -1,13 +1,13 @@
 <html>
 <head>
-<title></title>
+<title>akame</title>
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 <style>
 body {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Garamond', serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -30,12 +30,12 @@ body {
 
 .header h1 {
   font-size: 60px;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Garamond', serif;
   margin: 0;
 }
 
 .navbar {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Garamond', serif;
   margin-top: 20px;
 }
 
@@ -47,7 +47,6 @@ a:link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 
 </style>
