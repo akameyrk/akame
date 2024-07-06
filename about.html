@@ -2,19 +2,31 @@
 <html>
 <title>about</title>
 <style>
-  
-  body {top: 0; left: 0; width: 99%; height: 97%;
-      position: absolute; display: table}
-    p {display: table-cell; vertical-align: middle; text-align: center;
-       line-height: 1.5;}
+  body {
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 97%;
+    position: absolute;
+    display: table;
+  }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px; 
+  }
+
+  p {
+    line-height: 1.5;
+  }
 </style>
-  
-<br>
-<img src="1320851.jpg" alt="old school akame photo" style="height:150, width:250px;">
 
-<p>
-  my name's alex, currently attending university as well as doing youtube. 
-</p>
+<body>
+  <div class="container">
+    <img src="1320851.jpg" alt="old school akame photo" style="height:50px; width:50px;">
+    <p>my name's akame, currently attending university as well as doing youtube. </p>
+  </div>
 </body>
 </html>
