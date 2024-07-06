@@ -64,7 +64,7 @@ a:link {
   <div class="navbar">
     <a href="#">about me</a>
     <span> | </span>
-    <a href="#">youtube</a>
+    <a href="youtube.html">youtube</a>
     <span> | </span>
     <a href="#">blog</a>
     <span> | </span>
