@@ -24,6 +24,10 @@ body {
 .navbar {
   text-align: center;
 }
+
+  a:link {
+  text-decoration: underline;
+}
 </style>
 </head>
 
@@ -36,11 +40,11 @@ body {
 
 <div class="navbar">
   <a href="#">about me</a>
-  <span> . </span>
+  <span> | </span>
   <a href="#">youtube</a>
-  <span> . </span>
+  <span> | </span>
   <a href="#">blog</a>
-  <span> . </span>
+  <span> | </span>
   <a href="#" class="right">contact</a>
 </div>
 </body>
