@@ -62,13 +62,13 @@ a:link {
   <img src="Pinterest Image.jpg" alt="ak" class="center" style="width:700px;height:400px;">
 
   <div class="navbar">
-    <a href="#">about me</a>
+    <a href="https://akame.lol/about.html">about me</a>
     <span> | </span>
-    <a href="youtube.html">youtube</a>
+    <a href="https://akame.lol/youtube.html">youtube</a>
     <span> | </span>
-    <a href="#">blog</a>
+    <a href="https://akame.lol/blog.html">blog</a>
     <span> | </span>
-    <a href="#" class="right">contact</a>
+    <a href="https://akame.lol/contact.html" class="right">contact</a>
   </div>
 </div>
 </body>
