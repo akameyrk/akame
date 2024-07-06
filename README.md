@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title></title>
@@ -10,11 +11,20 @@ body {
   font-family: 'Times New Roman', serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
 }
 
 .header {
-  padding: 20px 0 0 0;
-  text-align: center;
+  padding: 20px 0 10px 0;
   color: black;
   border: none;
 }
@@ -26,7 +36,6 @@ body {
 }
 
 .navbar {
-  text-align: center;
   font-family: 'Times New Roman', serif;
   margin-top: 20px;
 }
@@ -39,28 +48,29 @@ a:link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 0px;
+  width: 100%;
 }
 
 </style>
 </head>
 
 <body>
-<div class="header">
-  <h1>akame</h1>
-</div>
+<div class="container">
+  <div class="header">
+    <h1>akame</h1>
+  </div>
 
-<img src="Pinterest Image.jpg" alt="ak" style="width:600px;height:400px;" class="center">
+  <img src="Pinterest Image.jpg" alt="ak" class="center">
 
-<div class="navbar">
-  <a href="#">about me</a>
-  <span> | </span>
-  <a href="#">youtube</a>
-  <span> | </span>
-  <a href="#">blog</a>
-  <span> | </span>
-  <a href="#" class="right">contact</a>
+  <div class="navbar">
+    <a href="#">about me</a>
+    <span> | </span>
+    <a href="#">youtube</a>
+    <span> | </span>
+    <a href="#">blog</a>
+    <span> | </span>
+    <a href="#" class="right">contact</a>
+  </div>
 </div>
 </body>
 </html>
