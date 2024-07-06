@@ -12,31 +12,33 @@ body {
 }
 
 .header {
-  padding: 80px;
+  padding: 80px; 
   text-align: center;
   color: black;
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Times New Roman', serif;
 }
 
 .navbar {
   text-align: center;
+  font-family: 'Times New Roman', serif;
 }
 
-  a:link {
+a:link {
   text-decoration: underline;
 }
 
-  .center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 0px; 
 }
-  
+
 </style>
 </head>
 
