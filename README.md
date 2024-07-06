@@ -14,6 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: black;
+  opacity: 0.1;
 }
 
 .container {
