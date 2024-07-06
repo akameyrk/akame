@@ -28,6 +28,14 @@ body {
   a:link {
   text-decoration: underline;
 }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
 </style>
 </head>
 
@@ -36,7 +44,7 @@ body {
   <h1>akame</h1>
 </div>
 
-<img src="Pinterest Image.jpg" alt="ak" style="width:600px;height:400px;">
+<img src="Pinterest Image.jpg" alt="ak" style="width:600px;height:400px;" class="center">
 
 <div class="navbar">
   <a href="#">about me</a>
