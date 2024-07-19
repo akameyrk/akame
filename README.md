@@ -66,7 +66,7 @@ a:link {
     <span> | </span>
     <a href="https://akame.lol/youtube.html">youtube</a>
     <span> | </span>
-    <a href="https://akame.lol/blog.html">blog</a>
+    <a href="https://akame.lol/blog/blog.html">blog</a>
     <span> | </span>
     <a href="https://akame.lol/contact.html" class="right">contact</a>
   </div>
