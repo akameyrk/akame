@@ -28,6 +28,7 @@
         .header {
             padding: 20px 0 10px 0;
             color: black;
+            text-align: center;
         }
 
         .header h1 {
@@ -54,6 +55,30 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 columns */
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        details {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        details[open] {
+            background-color: #e8e8e8; /* Change background when open */
+        }
     </style>
 </head>
 <body>
@@ -61,30 +86,82 @@
         <div class="header">
             <h1>2024 Setup Tour</h1>
         </div>
-        <p>i dooooo eventually wanna make setup-tours on some channel, but for now here's my setup w/ name + photos that inspired it</p>
+        <p>I do eventually wanna make setup-tours on some channel, but for now here's my setup with name + photos that inspired it:</p>
 
-
-        <p> 
-monitor - spectre 
-main mouse (white) - darmoshark 
-thumb ball mouse (black) - 
-keyboard - keycron Q1
-speakers - 
-monitor light bar - 
-mousepad - 
-microphone - samson q2u
-mic preamp - scarlet solo
-boom arm - 
-drawing pad / second screen - 
-book stand - 
-led “lamp” - 
-hat - hu tao
-youtube plaq - 100k one (i’ll be honest i drew it, sorry if i deceived you. when i get the real one i’ll hang it up and do a reshoot!!)
-
-eink device - boox go
-camcorder - sony
-bird - rio (not for sale, limited edition
-        </p>
+        <div class="grid-container">
+            <details>
+                <summary>monitor</summary>
+                sceptre
+            </details>
+            <details>
+                <summary>main mouse (white)</summary>
+                darmoshark
+            </details>
+            <details>
+                <summary>thumb ball mouse (black)</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>keyboard</summary>
+                keychron q1
+            </details>
+            <details>
+                <summary>speakers</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>monitor light bar</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>mousepad</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>microphone</summary>
+                samson q2u
+            </details>
+            <details>
+                <summary>mic preamp</summary>
+                scarlet solo
+            </details>
+            <details>
+                <summary>boom arm</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>drawing pad / second screen</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>book stand</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>led lamp</summary>
+                [specify brand/model]
+            </details>
+            <details>
+                <summary>hat</summary>
+                hu tao
+            </details>
+            <details>
+                <summary>youtube plaque</summary>
+                100k (drawn, but planning to replace with the real one)
+            </details>
+            <details>
+                <summary>eink device</summary>
+                boox go
+            </details>
+            <details>
+                <summary>camcorder</summary>
+                sony
+            </details>
+            <details>
+                <summary>bird</summary>
+                rio (limited edition, not for sale)
+            </details>
+        </div>
     </div>
 </body>
 </html>
