@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #F7F7F7;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            padding: 10px;
+            line-height: 1.5;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: #FFFFFF; /* White background for the container */
+            border-radius: 5px; /* Slightly rounded corners */
+            margin: auto; /* Centering the container */
+        }
+
+        .header {
+            padding: 20px 0 10px 0;
+            color: black;
+        }
+
+        .header h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #333; /* Darker color for headings */
+        }
+
+        a {
+            text-decoration: underline;
+            color: #0066CC; /* Blue links */
+        }
+
+        a:hover {
+            color: #FF3300; /* Red on hover */
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>dumbphone</h1>
+        </div>
+
+        <h3>Current dumbphones</h3>
+        <p>KYF37 (old)</p>
+        <p>F22 non-pro</p>
+
+        <h3>What's a dumbphone?</h3>
+        <p>dumbphones are phones, usually older ones, that are intentionally used for it's lack of features. at least i think, anyways.</p>
+
+        <h3>Why use a dumbphone?</h3>
+        <p>Everyone has their own reasons, but I would say being more present in life and quitting social media, porn, scrolling, etc, are the main reasons they are used. There is also the 'aesthetic' part of using one, or that's just me liking old tech lol. Though, Buying a dumbphone and getting rid of your current phone won't magically solve your issues, it just creates that friction between our addictive pleasures that we used to have. Nowadays, everything you consume online is built to keep you consuming endlessly. What helped me distance myself from social media was fear- the thought of feeding my mind whatever a company put in front of me scared me. </p>
+
+        <p><strong>KYF37</strong> My first dumb device, and I loved it. It had the perfect balance between functionality and aesthetics. T9 is a PAIN though, so I heavily recommend against a flipphone if you have no experience / have never used a T9
+        
+        <h3>How to buy a dumbphone</h3>
+        <p>wip, but i wanna cover bands, price, whether you have one already or not (parents sometimes got those), what you NEED vs what you WANT in one, etc
+    </div>
+</body>
+</html>
